@@ -1,0 +1,15 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "alpinejs": "^2.7.0",
+    "parcel": "^1.12.4",
+    "tailwindcss": "^1.8.10"
+  }
+}

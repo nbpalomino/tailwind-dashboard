@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/styles.css" rel="stylesheet"></link>
+    <script src="/index.js"></script>
+    <title>Tailwind templates - Dashboard</title>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-200">
+    <div class="flex flex-col h-screen">
+        <header class="flex flex-shrink-0">
+            <div class="flex-shrink-0 w-64 px-4 py-3 bg-gray-800">
+                <button class="flex items-center w-full">
+                    <img class="object-cover w-8 h-8 rounded-full" src="/assets/img/nbpalomino.jpg" alt="">
+                    <span class="ml-4 text-sm font-medium text-white">Nick Palomino</span>
+                    <svg class="w-4 h-4 ml-auto text-gray-400 stroke-current" fill="none" viewBox="0 0 24 24" >
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
+            </div>
+            <div class="flex items-center justify-between flex-1 px-4 bg-gray-700">
+                <nav class="flex">
+                    <a href="#" class="inline-block px-3 py-2 text-sm font-medium leading-none text-white bg-gray-800 rounded-lg">Comands</a>
+                    <a href="#" class="inline-block px-3 py-2 ml-2 text-sm font-medium leading-none text-white rounded-lg hover:bg-gray-800">Comands</a>
+                    <a href="#" class="inline-block px-3 py-2 ml-2 text-sm font-medium leading-none text-white rounded-lg hover:bg-gray-800">Comands</a>
+                    <a href="#" class="inline-block px-3 py-2 ml-2 text-sm font-medium leading-none text-white rounded-lg hover:bg-gray-800">Comands</a>
+                </nav>
+                <div class="flex items-center">
+                    <div class="relative w-64">
+                        <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                            <svg class="w-5 h-5 text-gray-500 stroke-current" fill="none" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </span>
+                        <input class="block w-full py-2 pl-8 pr-4 text-sm text-white placeholder-gray-400 bg-gray-900 rounded-lg outline-none focus:bg-white focus:text-gray-800" placeholder="Search">
+                    </div>
+                    <button class="ml-4 text-gray-400 hover:text-gray-200">
+                        <svg class="w-5 h-5 stroke-current" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                    </button>
+                    <button class="ml-4 text-gray-400 hover:text-gray-200">
+                        <svg class="w-5 h-5 stroke-current" fill="none" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="flex flex-1">
+            <div class="w-64 p-6 bg-gray-100">
+                <nav>
+                    <h2 class="mt-3 text-xs font-semibold tracking-wide text-gray-600 uppercase">Control Panel</h2>
+                    <div class="mt-2">
+                        <a href="#" 
+                        class="flex items-center justify-between px-3 py-2 mt-3 -mx-3 text-sm font-medium bg-gray-200 rounded-lg hover:text-gray-800">
+                            <span class="flex items-center justify-between">
+                                <svg class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                                </svg>
+                                <span class="ml-2 text-gray-800">Dashboard</span>
+                            </span>
+                            <span class="inline-block px-2 py-1 text-xs font-semibold leading-none text-center text-white bg-red-700 rounded-full">6</span>
+                        </a>
+                        <a href="#" 
+                        class="flex items-center justify-between px-3 py-2 mt-2 -mx-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-200 hover:text-gray-800">
+                            <span class="flex items-center justify-between">
+                                <svg class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />                                      
+                                </svg>
+                                <span class="ml-2 text-gray-700">Messages</span>
+                            </span>
+                            <span class="inline-block px-2 py-1 text-xs font-semibold leading-none text-center text-white bg-blue-600 rounded-full">232</span>
+                        </a>
+                    </div>
+                    <h2 class="mt-8 text-xs font-semibold tracking-wide text-gray-600 uppercase">FOLDERS</h2>
+                    <div class="mt-4">
+                        <a href="#" class="block text-sm font-medium text-gray-700">Refunds</a>
+                        <a href="#" class="block mt-4 text-sm font-medium text-gray-700">Discounts</a>
+                        <a href="#" class="block mt-4 text-sm font-medium text-gray-700">Bugs</a>
+                    </div>
+                </nav>
+            </div>
+            <main class="bg-gray-400">
+                <div></div>
+                <div></div>
+            </main>
+        </div>
+    </div>
+</body>
+<!-- https://www.youtube.com/watch?v=6xgMkGMIudE&t=3794s -->
+<!-- https://heroicons.com/ -->
+</html>
